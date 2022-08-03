@@ -5,7 +5,9 @@
 	3. szövegigazítás középre
 */
 body {
-	
+	background-color: 009688;
+	color: rgb(255 255 255);
+	text-align: center;
   }
   
   a {
@@ -36,6 +38,7 @@ body {
 	8. szövegigazítás középre, 
 	9. sormagasság 80 pixel
   */
+  
   .menu-item, .menu-open-button {
 	width: 80px;
 	height: 80px;
