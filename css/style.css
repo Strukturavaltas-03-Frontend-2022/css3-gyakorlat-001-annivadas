@@ -5,7 +5,9 @@
 	3. szövegigazítás középre
 */
 body {
-	
+	background-color: #009688;
+	color: white;
+	text-align: center;
   }
   
   a {
@@ -36,6 +38,14 @@ body {
 	8. szövegigazítás középre, 
 	9. sormagasság 80 pixel
   */
+  body .menu-item {
+	background-color: #ffc107;
+	color: rgb(255, 255,255);
+	border-radius: 100%;
+	position: absolute;
+	text-align: center;
+	line-height: 80px;
+  }
   .menu-item, .menu-open-button {
 	width: 80px;
 	height: 80px;
@@ -61,6 +71,13 @@ body {
 	13. megjelenítés blokkszintű,
 	14. pozíció abszolút
   */
+  body .hamburger {
+	width: 25px;
+	height: 3px;
+	background-color: rgb(255, 255, 255);
+	display: block;
+	position: absolute;
+  }
   .hamburger {
 	top: 50%;
 	left: 50%;
